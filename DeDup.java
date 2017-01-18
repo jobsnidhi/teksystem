@@ -97,7 +97,6 @@ public class DeDup {
 		Set<Integer> distinctElements = new HashSet<Integer>();
 		// Traverse the input array
 		for (int i = 0; i < randomInt.length; i++) {
-			// If not present, then put it in hashtable and print it
 			distinctElements.add(randomInt[i]);
 		}
 		return distinctElements.stream().mapToInt(Number::intValue).toArray();
@@ -117,7 +116,6 @@ public class DeDup {
 
 		// Traverse the input array
 		for (int i = 0; i < randomInt.length; i++) {
-			// If not present, then put it in hashtable and print it
 			distinctElements.add(randomInt[i]);
 		}
 		return distinctElements.stream().mapToInt(Number::intValue).toArray();
@@ -134,7 +132,6 @@ public class DeDup {
 		Set<Integer> distinctElements = new TreeSet<Integer>();
 		// Traverse the input array
 		for (int i = 0; i < randomInt.length; i++) {
-			// If not present, then put it in hashtable and print it
 			distinctElements.add(randomInt[i]);
 		}
 		return distinctElements.stream().mapToInt(Number::intValue).toArray();
